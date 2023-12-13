@@ -1,19 +1,11 @@
 
 SSH key and PAT Token example commands
 
+ssh -vvv git@github.com -y >>> command to check previous ssh key
 
+ssh-keygen -t ed25519 -C "example.email@email.com" >>> command to create a new ssh 
 
-ssh -vvv git@github.com -y
-
-ssh-keygen -t ed25519 -C "example.email@email.com"
-
-
-
-
-
-
-
-git remote set-url origin https://<token>@github.com/<username>/<repo>
+git remote set-url origin https://<token>@github.com/<username>/<repo>  >>> format to add pat token locally
 
 git remote set-url origin https://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@github.com/dddtechnologies/wallmartgit remote set-url origin https://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@github.com/dddtechnologies/wallmar
 
